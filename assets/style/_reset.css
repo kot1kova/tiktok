@@ -1,0 +1,110 @@
+/* Reset and base styles  */
+/* line 2, /Users/kata/Desktop/work/tiktok-3block-main/assets/style/_reset.scss */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none; }
+
+/* line 8, /Users/kata/Desktop/work/tiktok-3block-main/assets/style/_reset.scss */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Links */
+/* line 16, /Users/kata/Desktop/work/tiktok-3block-main/assets/style/_reset.scss */
+a,
+a:link,
+a:visited {
+  text-decoration: none; }
+
+/* line 22, /Users/kata/Desktop/work/tiktok-3block-main/assets/style/_reset.scss */
+a:hover {
+  text-decoration: none; }
+
+/* Common */
+/* line 28, /Users/kata/Desktop/work/tiktok-3block-main/assets/style/_reset.scss */
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block; }
+
+/* line 37, /Users/kata/Desktop/work/tiktok-3block-main/assets/style/_reset.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit; }
+
+/* line 48, /Users/kata/Desktop/work/tiktok-3block-main/assets/style/_reset.scss */
+ul,
+ul li {
+  list-style: none; }
+
+/* line 53, /Users/kata/Desktop/work/tiktok-3block-main/assets/style/_reset.scss */
+img {
+  vertical-align: top; }
+
+/* line 57, /Users/kata/Desktop/work/tiktok-3block-main/assets/style/_reset.scss */
+img,
+svg {
+  max-width: 100%;
+  width: 100%;
+  height: auto; }
+
+/* line 64, /Users/kata/Desktop/work/tiktok-3block-main/assets/style/_reset.scss */
+address {
+  font-style: normal; }
+
+/* Form */
+/* line 70, /Users/kata/Desktop/work/tiktok-3block-main/assets/style/_reset.scss */
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent; }
+
+/* line 80, /Users/kata/Desktop/work/tiktok-3block-main/assets/style/_reset.scss */
+input::-ms-clear {
+  display: none; }
+
+/* line 84, /Users/kata/Desktop/work/tiktok-3block-main/assets/style/_reset.scss */
+button,
+input[type="submit"] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer; }
+
+/* line 93, /Users/kata/Desktop/work/tiktok-3block-main/assets/style/_reset.scss */
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none; }
+
+/* line 100, /Users/kata/Desktop/work/tiktok-3block-main/assets/style/_reset.scss */
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+/* line 105, /Users/kata/Desktop/work/tiktok-3block-main/assets/style/_reset.scss */
+label {
+  cursor: pointer; }
+
+/* line 109, /Users/kata/Desktop/work/tiktok-3block-main/assets/style/_reset.scss */
+legend {
+  display: block; }
+
+/*# sourceMappingURL=_reset.css.map */
